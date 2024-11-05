@@ -5,8 +5,13 @@ canvas.height = 400;
 
 function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = 'blue';
-  ctx.fillRect(50, 50, 100, 100); // Example rectangle
+  
+  ctx.fillStyle = "black";
+  ctx.font = "20px Arial";
+  for(let i = 1; i <= 10 ; i++)
+  {
+    ctx.fillText(i, 10, 30 * i);
+  }
 }
 
 setInterval(draw, 1000 / 60); // Run game loop at 60 FPS
