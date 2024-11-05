@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #gameCanvas {
+    border: 1px solid black;
+    background-color: lightgray;
+  }
+  
